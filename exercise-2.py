@@ -6,4 +6,3 @@ def index_power(numnbers, n):
         elif n not in range(len(numnbers)):
             return -1
 
-print(index_power([1,2,3,4],4))

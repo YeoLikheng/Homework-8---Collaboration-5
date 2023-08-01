@@ -1,4 +1,8 @@
 def replace_last(numbers):
-   numbers.insert(0,numbers.pop())
-   return numbers
+   if numbers:
+      numbers.insert(0,numbers.pop())
+      return numbers
+   else:
+      return numbers
+   
 
